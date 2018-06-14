@@ -26,7 +26,6 @@ footer {
   width: 100%;
 }
 .btn-beer {
-  color: #fff;
   background-color: #2081C3;
   border-color: #2081C3;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
@@ -34,6 +33,12 @@ footer {
 .btn-beer:hover {
   background-color: #0A2C42;
   border-color: #0A2C42;
+}
+.btn-beer a {
+  color: #fff;
+}
+.btn-beer a:hover {
+  text-decoration: none;
 }
 
 .card {
